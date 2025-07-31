@@ -1,10 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>My GitHub Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fútbol Libre TV - Ver Partidos de Fútbol en Vivo Gratis</title>
+  <meta name="description" content="Disfruta de tus partidos de fútbol favoritos en vivo y gratis en Fútbol Libre TV. Mira partidos de la Liga Argentina, Copa Libertadores, Champions League y más sin cortes.">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5FKC8QTTW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C5FKC8QTTW');
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #fff;
+      padding: 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Header Logo */
+    .logo {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #05b548;
+      margin-bottom: 10px;
+    }
+
+    /* Nav Menu */
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      background: linear-gradient(to right, #00b24f, #009ed9, #f00, #ffc107, #6f42c1);
+      padding: 10px 0;
+      margin-bottom: 40px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 5px 10px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p.description {
+      font-size: 1rem;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+
+    h2 {
+      margin: 30px 0 10px;
+    }
+
+    .agenda {
+      background: #28a745;
+      color: #fff;
+      font-weight: 700;
+      padding: 10px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .schedule {
+      max-width: 600px;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+      border-top: none;
+    }
+
+    .match {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 15px;
+      border-top: 1px solid #ddd;
+      background-color: #fff;
+    }
+
+    .match:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+
+    .match-time {
+      font-weight: bold;
+    }
+
+    .match-info {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+    }
+
+    .match-info img {
+      width: 18px;
+      height: 18px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>Welcome to my site hosted on GitHub Pages.</p>
+
+  <div class="logo">Fútbol Libre</div>
+
+  <nav>
+    <a href="#">TyC Sports</a>
+    <a href="#">DirecTV Sports</a>
+    <a href="#">TNT Sports</a>
+    <a href="#">TV Pública</a>
+    <a href="#">Fox Sports</a>
+    <a href="#">ESPN Premium</a>
+    <a href="#">TUDN</a>
+  </nav>
+
+  <h1>Fútbol Libre TV</h1>
+  <p class="description">
+    Futbol Libre es una plataforma donde puedes ver todos tus Partidos de Futbol favoritos gratis.
+    Ver Fútbol Libre TV online en vivo y en directo. Canales gratis de stream para ver partidos del
+    fútbol argentino, Liga Profesional, Copa Libertadores, Liga 1, Copa Sudamericana, LaLiga, Serie A,
+    Primera División, Liga Pro y Champions League entre otros.
+  </p>
+
+  <h2>Ver Futbol Libre Para Todos en Vivo</h2>
+
+  <div class="agenda">Agenda - Jueves 31 de Julio de 2025</div>
+
+  <div class="schedule">
+    <div class="match">
+      <div class="match-time">16:30</div>
+      <div class="match-info">
+        <img src="https://img.icons8.com/ios-filled/50/000000/soccer-ball.png" alt="Ball">
+        Amistosos: Seoul vs Barcelona
+      </div>
+    </div>
+    <div class="match">
+      <div class="match-time">17:00</div>
+      <div class="match-info">
+        <img src="https://img.icons8.com/ios-filled/50/000000/soccer-ball.png" alt="Ball">
+        Amistosos: Arsenal vs Tottenham Hotspur
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
